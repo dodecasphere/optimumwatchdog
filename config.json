@@ -1,0 +1,36 @@
+{
+    "twitter": {
+        "twitterToken": "",
+        "twitterConsumerKey": "",
+        "twitterTokenSecret": "",
+        "twitterConsumerSecret": ""
+    },
+    "tweetTo": "@optimum",
+    "internetSpeed": "150",
+    "tweetThresholds": {
+        "10": [
+            "Hey {tweetTo} I'm paying for {internetSpeed}Mbps down but getting only {downloadResult}Mbps?!? Shame. #optimum",
+            "Yowzers! {tweetTo} $100+/month for {internetSpeed}Mbps down and I only get {downloadResult}Mbps? How does that seem fair? #optimum"
+        ],
+        "50": [
+            "Uhh {tweetTo} for $100+/month I expect better than {downloadResult}Mbps when I'm paying for {internetSpeed}Mbps down. Fix your network! #optimum",
+            "Hey {tweetTo} why am I only getting {downloadResult}Mbps when I pay for {internetSpeed}Mbps down? $100+/month for this?? #optimum",
+            "Yo... {tweetTo} what's up with this? {downloadResult}Mbps when I pay for {internetSpeed}Mbps down? No good at all. #optimum",
+            "{tweetTo}, at it again. These internet speeds are terrible. {downloadResult}Mbps when I pay for {internetSpeed}Mbps down? Get it together. #optimum",
+            "Sick and tired of not getting what I pay for. {downloadResult}Mbps when I pay for {internetSpeed}Mbps down? Appalling. #optimum",
+            "Oi! {tweetTo} $100+/month for {internetSpeed}Mbps down and I only get {downloadResult}Mbps? How does that seem fair? #optimum",
+            "Hey {tweetTo} I'm paying for {internetSpeed}Mbps down but getting only {downloadResult}Mbps?!? Shame. #optimum"
+        ],
+        "100": [
+            "Well {tweetTo} I guess {downloadResult}Mbps is better than nothing, still not worth $100/mnth when I expect {internetSpeed}Mbps down #optimum",
+            "Dear {tweetTo}. I'd rather not settle for {downloadResult}Mbps when I expect {internetSpeed}Mbps down. Please fix, thanks. #optimum"
+        ]
+    },
+    "log": {
+        "type": "csv",
+        "files": {
+            "ping": "pingresults.csv",
+            "speed": "speedresults.csv"
+        }
+    }
+}
